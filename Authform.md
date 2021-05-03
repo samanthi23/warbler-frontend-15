@@ -24,3 +24,7 @@ pass in all the props
 
 #  build Authform
 
+```
+import AuthForm from "../components/AuthForm";
+```
+

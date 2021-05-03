@@ -1,10 +1,15 @@
 import React, { Component } from "react";
 // one single component
-
+// building a form
+// and the inputs we want to have control over
 class AuthForm extends Component {
+  // pass in some props
   constructor(props) {
+    // call super
     super(props);
+    // start with some state
     this.state = {
+      // pass in some default state
       email: "",
       username: "",
       password: "",

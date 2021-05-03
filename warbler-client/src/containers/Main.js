@@ -2,6 +2,7 @@ import React from "react";
 import { Switch, Route, withRouter, Redirect } from "react-router-dom";
 import { connect } from "react-redux";
 import Homepage from "../components/Homepage";
+// import AuthForm
 import AuthForm from "../components/AuthForm";
 
 const Main = props => {
