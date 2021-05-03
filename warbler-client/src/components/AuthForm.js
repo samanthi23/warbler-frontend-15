@@ -27,13 +27,13 @@ class AuthForm extends Component {
     const { signUp, heading } = this.props;
 
     return (
-      /* return some JSX */
+      {/* return some JSX */}
       
       <div>
         <div className="row justify-content-md-center text-center">
           <div className="col-md-6">
             <form onSubmit={this.handleSubmit}>
-             /* const { heading} = this.props;*/
+             {/* const { heading} = this.props; */}
               <h2>{heading}</h2>
 
               <label htmlFor="email">E-mail</label>
@@ -44,9 +44,12 @@ class AuthForm extends Component {
                 name="email"
                 onChange={this.handleChange}
                 type="text"
-                value={email}
+                value={email} 
               />
+              {/* if it exists pre populate that with whatever the email is at the moment, value={email} */}
+              
               <label htmlFor="password">Password</label>
+              {/* for a password */}
               <input
                 autoComplete="off"
                 className="form-control"
