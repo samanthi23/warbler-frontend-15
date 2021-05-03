@@ -22,14 +22,18 @@ class AuthForm extends Component {
   };
 
   render() {
+    {/* grab from this.state */}
     const { email, username, password, profileImageUrl } = this.state;
     const { signUp, heading } = this.props;
 
     return (
+      /* return some JSX */
+      
       <div>
         <div className="row justify-content-md-center text-center">
           <div className="col-md-6">
             <form onSubmit={this.handleSubmit}>
+             /* const { heading} = this.props;*/
               <h2>{heading}</h2>
 
               <label htmlFor="email">E-mail</label>
