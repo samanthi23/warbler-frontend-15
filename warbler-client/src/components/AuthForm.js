@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+// one single component
 
 class AuthForm extends Component {
   constructor(props) {
